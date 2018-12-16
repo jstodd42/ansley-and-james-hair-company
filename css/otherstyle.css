@@ -1037,7 +1037,9 @@ img {
   background-color: #ca94bf;
 }
 
-@media (max-width: 991px) {
+/*-------------------------------------Media Queries for tablets-------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
   .aj-header {
     margin-top: -14px;
   }
@@ -1158,8 +1160,9 @@ img {
     margin-top: -14px;
   }
 }
+/*-----------------------------Media queries for phones landscape-----------------------*/
 
-@media (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px){
   .hours-and-location-section {
     padding-top: 0px;
   }
@@ -1215,7 +1218,7 @@ img {
   .styling-and-bridal-prices {
     position: static;
     line-height: 19px;
-    text-align: left;
+    text-align: center;
   }
   .text-block-13 {
     margin: 22px 11px;
@@ -1282,8 +1285,8 @@ img {
     margin-top: 0px;
   }
 }
-
-@media (max-width: 479px) {
+/*-------------------------Media queries for phones----------------------------------*/
+@media (min-width: 320px) and (max-width: 480px){
   .aj-header {
     margin-top: 0px;
   }
@@ -1425,6 +1428,7 @@ img {
     flex: 1;
     color: #000;
     line-height: 23px;
+    text-align: center; /*----------This is where I seem to be having trouble for mobile view.----------------------------*/
   }
   .hair-services-prices {
     color: #000;
