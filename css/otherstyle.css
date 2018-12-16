@@ -1185,14 +1185,14 @@ img {
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: #ca94bf;
+    background-color: #b9a7d3;
     text-align: left;
   }
   .bio-paragraph {
     margin-right: 13px;
     margin-left: 13px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-left: 0px;
     line-height: 19px;
     text-align: center;
@@ -1256,7 +1256,7 @@ img {
     display: -ms-flexbox;
     display: flex;
     margin-top: 0px;
-    margin-bottom: 6px;
+    margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
     -webkit-box-pack: start;
@@ -1428,8 +1428,7 @@ img {
     flex: 1;
     color: #000;
     line-height: 23px;
-    text-align: center; /*----------This is where I seem to be having trouble for mobile view.----------------------------*/
-  }
+    text-align: center;
   .hair-services-prices {
     color: #000;
   }
