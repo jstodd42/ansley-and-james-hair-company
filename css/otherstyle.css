@@ -1162,7 +1162,7 @@ img {
 }
 /*-----------------------------Media queries for phones landscape-----------------------*/
 
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 375px) and (max-width: 667px){
   .hours-and-location-section {
     padding-top: 0px;
   }
