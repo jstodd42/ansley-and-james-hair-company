@@ -629,10 +629,10 @@ img {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Myriad pro semiextended','Open Sans', sans-serif;
   color: #fff;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
 }
 
