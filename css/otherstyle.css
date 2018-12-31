@@ -224,7 +224,7 @@ img {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: left;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -242,8 +242,8 @@ img {
 .hair-services-prices {
   font-family: 'Myriad pro semiextended', sans-serif;
   font-size: 25px;
-  font-weight: 300;
-  text-decoration: underline;
+  font-weight: 200;
+  text-decoration: none;
 }
 
 .main-footer {
