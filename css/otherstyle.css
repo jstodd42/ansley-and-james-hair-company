@@ -1,5 +1,5 @@
 body {
-  font-family: 'Myriad pro semiextended', 'Arial', 'Helvetica', 'sans-serif';
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
 }
 
@@ -167,16 +167,12 @@ a {
   text-align: center;
 }
 
-.bio-with-picture-included {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
 .hours-and-location {
+  justify-content: center;
   display: inline-block;
-  margin-right: 47px;
+  margin-right: 0px;
   margin-bottom: 0px;
-  margin-left: 47px;
+  margin-left: 0px;
   padding-top: 0px;
   padding-right: 29px;
   padding-left: 29px;
@@ -303,9 +299,7 @@ a {
 
 /*-------------------------------------Media Queries for tablets-------------------------------------------*/
 
-@media and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1){
+@media (min-width: 669px) and (max-width: 1024px) {
   .aj-header {
     margin-top: -14px;
   }
@@ -317,7 +311,7 @@ a {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #e9e9e9;
-  }
+  }  
   .bio-paragraph {
   position: relative;
   top: 0px;
@@ -344,7 +338,7 @@ a {
   font-size: 19px;
   font-weight: 200;
   text-align: center;
-}
+  }
   .bio-section {
     margin-bottom: 0px;
   }
@@ -368,15 +362,7 @@ a {
 @media (min-width: 375px) and (max-width: 667px){
   .nav-bar {
     margin-bottom: 36px;
-  }
-    
-  /*.website-picture {
-    top: 15px;
-    right: 5px;
-    bottom: 0px;
-    float: left;
-  }*/
-    
+  } 
   .bio-paragraph {
     margin-right: 0px;
     margin-left: 0px;
@@ -429,7 +415,7 @@ a {
   
 }
 /*-------------------------Media queries for phones----------------------------------*/
-@media (min-width: 300px) and (max-width: 1134px){
+@media (min-width: 300px) and (max-width: 760px){
   
   .ansley-and-james-logo-1 {
     margin-top: 0px;
@@ -456,17 +442,6 @@ a {
     margin-top: 1px;
   }
     
-  /*.website-picture {
-    position: static;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    float: none;
-  }*/
-    
-  .bio-with-picture-included {
-    margin-bottom: -4px;
-    margin: 10px;
-  }
   .bio-paragraph {
     position: static;
     display: block;
@@ -481,6 +456,7 @@ a {
     margin-bottom: 30px;
     color: #000;
     font-size: 28px;
+    font-weight: 200;
   }
   .styling-and-bridal-prices {
     display: block;
@@ -493,7 +469,7 @@ a {
     -ms-flex: 1;
     flex: 1;
     color: #000;
-    line-height: 19px;
+    line-height: 15px;
     text-align: center;
     font-size: 14px;
   }
