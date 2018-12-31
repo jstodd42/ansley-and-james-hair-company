@@ -214,8 +214,8 @@ img {
   font-family: 'Myriad pro semiextended','Open Sans', sans-serif;
   color: #000;
   font-size: 30px;
-  font-weight: 300;
-  text-align: center;
+  font-weight: 200;
+  text-align: left;
 }
 
 .styling-and-bridal-prices {
@@ -224,7 +224,7 @@ img {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: left;
+  justify-content: center;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -233,9 +233,10 @@ img {
   color: #000;
   font-size: 20px;
   line-height: 23px;
-  font-weight: 300;
-  text-align: center;
+  font-weight: 200;
+  text-align: left;
   padding-bottom: 25px;
+  text-align: none;
 }
 
 
