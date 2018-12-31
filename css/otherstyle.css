@@ -211,7 +211,7 @@ img {
   justify-content: center;
   font-family: 'Myriad pro semiextended','Open Sans', sans-serif;
   color: #000;
-  font-size: 32px;
+  font-size: 37px;
   font-weight: 200;
   text-align: center;
 }
@@ -494,6 +494,9 @@ img {
   }
   .footer-div {
     margin-bottom: 0px;
+    background-color: #b9a7d3;
+    box-shadow: 0 -4px 29px 11px #b9a7d3;
+    opacity: 1;
   }
   .hours-and-location-section {
     position: static;
