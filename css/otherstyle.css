@@ -271,10 +271,12 @@ img {
 }
 
 .footer-div {
+  display: flex;
+  justify-content: center;
   background-color: #b9a7d3;
   box-shadow: 0 -4px 29px 11px #b9a7d3;
   opacity: 1;
-}
+}  
 
 .footer-1-aandj {
   display: block;
