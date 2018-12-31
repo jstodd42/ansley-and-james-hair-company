@@ -224,6 +224,9 @@ img {
   font-weight: 200;
   text-decoration: none;
 }
+.styling-prices {
+  padding-bottom: 40px;
+}
 
 .styling-and-bridal-prices {
   display: block;
@@ -242,7 +245,7 @@ img {
   font-weight: 200;
   line-height: 18px;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 
 .main-footer {
