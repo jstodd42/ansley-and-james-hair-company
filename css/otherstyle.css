@@ -358,7 +358,7 @@ img {
 }
 /*-----------------------------Media queries for phones landscape-----------------------*/
 
-@media (min-width: 375px) and (max-width: 667px){
+@media (min-width: 375px) and (max-width: 1134px){
   .nav-bar {
     margin-bottom: 36px;
   }
@@ -420,7 +420,7 @@ img {
   
 }
 /*-------------------------Media queries for phones----------------------------------*/
-@media (min-width: 320px) and (max-width: 480px){
+@media (min-width: 320px) and (max-width: 1134px){
   
   .ansley-and-james-logo-1 {
     margin-top: 0px;
