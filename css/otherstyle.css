@@ -175,7 +175,7 @@ img {
   padding-bottom: 0px;
 }
 
-.hours-and-location-section {
+.hours-and-location {
   display: inline-block;
   margin-right: 47px;
   margin-bottom: 0px;
@@ -215,14 +215,14 @@ img {
   text-align: center;
 }
 
-.hair-services-prices {
+.hair-services {
   font-family: 'Myriad pro semiextended', sans-serif;
   font-size: 30px;
   font-weight: 200;
   text-decoration: none;
 }
 
-/*.styling-prices {
+/*.styling {
   line-height: 25px;
   padding-bottom: 40px;
 }*/
