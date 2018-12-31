@@ -191,7 +191,7 @@ img {
   font-family: 'Myriad pro semiextended', sans-serif;
   font-size: 17px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .bold-hours-and-location {
@@ -201,7 +201,7 @@ img {
   padding-left: 0px;
   font-family: 'Myriad pro semiextended','Bebasneue book', sans-serif;
   font-size: 23px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .cuts-and-styling-heading {
@@ -293,7 +293,7 @@ img {
 
 .footer-1-aandj {
   display: block;
-  margin-top: 78px;
+  margin-top: 75px;
   padding-top: 0px;
   padding-bottom: 0px;
   flex-direction: row;
@@ -301,7 +301,7 @@ img {
   flex-wrap: nowrap;
   align-items: baseline;
   background-color: #0;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .dev-info {
