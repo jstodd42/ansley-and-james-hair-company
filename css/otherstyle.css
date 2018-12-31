@@ -223,7 +223,6 @@ img {
   font-size: 30px;
   font-weight: 200;
   text-decoration: none;
-  line-height: 22px;
 }
 
 .styling-and-bridal-prices {
@@ -241,6 +240,7 @@ img {
   color: #000;
   font-size: 20px;
   font-weight: 200;
+  line-height: 22px;
   text-align: center;
   padding-bottom: 25px;
 }
