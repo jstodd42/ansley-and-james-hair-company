@@ -218,6 +218,14 @@ img {
   text-align: center;
 }
 
+.hair-services-prices {
+  font-family: 'Myriad pro semiextended', sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  text-decoration: none;
+  line-height: 10px;
+}
+
 .styling-and-bridal-prices {
   display: block;
   padding: 10px;
@@ -231,18 +239,10 @@ img {
   flex: 0 auto;
   font-family: 'Myriad pro semiextended', sans-serif;
   color: #000;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 200;
   text-align: center;
   padding-bottom: 25px;
-}
-
-.hair-services-prices {
-  font-family: 'Myriad pro semiextended', sans-serif;
-  font-size: 10px;
-  font-weight: 200;
-  text-decoration: none;
-  line-height: 20px;
 }
 
 .main-footer {
