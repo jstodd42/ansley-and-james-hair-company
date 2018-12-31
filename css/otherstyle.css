@@ -145,7 +145,7 @@ img {
 
 .bio-paragraph {
   position: relative;
-  top: 50px;
+  top: 0px;
   right: 0px;
   bottom: 0px;
   display: flex;
@@ -177,7 +177,7 @@ img {
 }
 
 .hours-and-location {
-  display: inline-block;
+  display: block;
   margin-right: 47px;
   margin-bottom: 0px;
   margin-left: 47px;
