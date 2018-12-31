@@ -356,9 +356,9 @@ img {
     text-align: center;
   }
 }
-/*-----------------------------Media queries for phones landscape-----------------------*/
+/*-----------------------------Media queries for phones (landscape)-----------------------*/
 
-@media (min-width: 375px) and (max-width: 1134px){
+@media (min-width: 375px) and (max-width: 812px) and (orientation: landscape){
   .nav-bar {
     margin-bottom: 36px;
   }
@@ -419,8 +419,8 @@ img {
   }
   
 }
-/*-------------------------Media queries for phones----------------------------------*/
-@media (min-width: 320px) and (max-width: 1134px){
+/*-------------------------Media queries for phones (portrait)----------------------------------*/
+@media (min-width: 375px) and (max-width: 812px) and (orientation: portrait){
   
   .ansley-and-james-logo-1 {
     margin-top: 0px;
