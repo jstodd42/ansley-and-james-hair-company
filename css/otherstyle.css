@@ -243,6 +243,7 @@ img {
   font-size: 25px;
   font-weight: 300;
   text-decoration: none;
+  line-height: 5px;
 }
 
 .main-footer {
