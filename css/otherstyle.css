@@ -335,7 +335,7 @@ a {
   background-color: transparent;
   font-family: 'Myriad pro semiextended', sans-serif;
   color: #000;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 200;
   text-align: center;
   }
@@ -371,6 +371,7 @@ a {
     padding-left: 0px;
     line-height: 19px;
     text-align: center;
+    font-size: 16px;
   }
   .bio-section {
     margin-bottom: 0px;
@@ -449,7 +450,7 @@ a {
     padding-bottom: 17px;
     padding-left: 0px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
   }
   .cuts-and-styling-heading {
     margin-top: 1px;
