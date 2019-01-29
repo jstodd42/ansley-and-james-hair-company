@@ -72,82 +72,49 @@ a {
 
 .logo {
     position: absolute;
-    width: 500px;
     z-index: 2;
-    margin-left: 400px;
-    margin-top: -300px;
-}
-
-.about {
-    background-color: lightblue;
-    display: block;
-    margin: 0;
-    height: 45%;
-}
-
-.about-me h2 {
-    color: darkslategray;
-    font-weight: 100;
-    font-size: 40px;
-    text-decoration: underline;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;
-    margin-top: 40px;
-}
-
-.about-me p {
-    color: black;
-    font-size: 25px;
-    font-weight: 100;
-    line-height: 35px;
-    margin: auto;
-    margin-top: 10px;
-    text-align: left;
-    width: 40%;
+    width: auto;
+    margin-left: 500px;
+    margin-top: -250px;
 }
 
 #services-section {
-    background-color: white;
-    margin-left: 100px;
+    background-color: lightblue;
     padding-top: 75px;
     padding-bottom: 75px;
-}
-
-#services-section img {
-    height: 300px;
-    width: 300px;
-    margin-top: -350;
-    margin-left: 700px;
+    text-align: center;
 }
 
 #services h2 {
     color: darkslategray;
     font-size: 40px;
     font-weight: 100;
-    margin-left: 450px;
     text-decoration: underline;
     text-transform: uppercase;
 }
 
 #services h4 {
+    color: darkslategray;
     font-size: 30px;
     font-weight: 100;
     text-transform: uppercase;
+    text-align: center;
 }
 
 #services p {
+    color: darkslategray;
+    display: block;
     font-size: 25px;
     font-weight: 100;
     line-height: 35px;
-    padding-right: 20px;
-    width: 50%;
+    width: 100%;
 }
 
 #contact {
-    background-color: ;
+    background-color: lightblue;
     margin: 0;
     width: auto;
+    text-align: center;
 }
 
 #contact h3 {
@@ -155,52 +122,37 @@ a {
     font-size: 40px;
     font-weight: 100;
     text-decoration: underline;
-    margin-left: 500px;
-    margin-bottom: 70px;
-    
 }
 
 .hours {
+    
+    color: darkslategray;
     display: block;
-    margin-left: 100px;
     font-size: 25px;
     font-weight: 100;
     line-height: 35px;
 }
 
 .location {
+    color: darkslategray;
     display: block;
-    margin-left: 700px;
-    margin-top: -95px;
     font-size: 25px;
     font-weight: 100;
     line-height: 35px;
     
 }
 
-.call p {
-    text-align: center;
-    font-weight: 100;
-    font-size: 25px;
-    
-}
-
 footer {
     background-color: lightblue;
-    display: block;
     text-align: left;
-    margin: 0;
-    height: 20px;
-    font-size: 15px;
+    padding-top: 0px;
+    display: inline-block;
+    width: 100%;
 }
 
 footer a:hover {
     color: white;
     text-decoration: underline;
 }
-
-
-
-
 
 
