@@ -75,7 +75,7 @@ a {
     position: relative;
     display: inline-block;
     z-index: 1;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 #services-section {
@@ -129,7 +129,7 @@ a {
     display: block;
     font-size: 25px;
     font-weight: 100;
-    line-height: 9px;
+    line-height: 35px;
 }
 
 .location {
