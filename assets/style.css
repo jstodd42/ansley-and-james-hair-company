@@ -155,7 +155,1208 @@ footer a:hover {
 }
 
 
+/*-------------------------------------Media Queries for tablets landscape-------------------------------------------*/
 
+@media (min-width: 1280px) and (max-width: 1025px) and (orientation: landscape) {
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 76px;
+    height: 79.5%;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 110px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
 
+#services h4 {
+    color: darkslategray;
+    font-size: 70px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 65px;
+    width: 100%;
+ }
 
+#contact h3 {
+    color: darkslategray;
+    font-size: 63px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
 
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 55px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }   
+}
+
+/*-------------------------------------Media Queries for tablets portrait-------------------------------------------*/
+
+@media (min-width: 1025px) and (max-width: 1280px) and (orientation: portrait) {
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 76px;
+    height: 79.5%;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 110px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 70px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 65px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 63px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 55px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }      
+}
+
+/*-------------------------------------Media Queries for iPad Pro landscape-------------------------------------------*/
+
+@media (min-width: 1366px) and (max-width: 1024px) and (orientation: landscape) {
+    
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 90px;
+    width: 56%;
+    height: 73%;
+ }
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 80px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 55px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 65px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 63px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 55px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }   
+}
+
+/*-------------------------------------Media Queries for iPad Pro portrait-------------------------------------------*/
+
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+    
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 50px;
+    width: 66%;
+    height: 82%;
+ }
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 80px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 55px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 37px;
+    font-weight: 100;
+    line-height: 65px;
+    width: 100%;
+}
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 60px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }   
+}
+
+/*-------------------------------------Media Queries for iPad landscape-------------------------------------------*/
+
+@media (min-width: 1024px) and (max-width: 768px) and (orientation: landscape) {
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 77px;
+    width: 90%;
+    height: 76%;
+ }
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 80px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 55px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 65px;
+    width: 100%;
+}
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 60px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }   
+}
+
+/*-------------------------------------Media Queries for iPad portrait-------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px) and screen and (orientation: portrait) {
+    
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 50px;
+    width: 66%;
+    height: 82%;
+ }
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 80px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 55px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 37px;
+    font-weight: 100;
+    line-height: 65px;
+    width: 100%;
+}
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 60px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }     
+    
+}
+
+/*-----------------------------Media queries for phones, iPhone 5/SE landscape-----------------------*/
+
+@media (min-width: 667px) and (max-width: 375px) and screen and (orientation: landscape) {
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 5px;
+}
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 25px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }  
+}
+
+/*-----------------------------Media queries for phones, iPhone 5/SE portrait-----------------------*/
+
+@media (min-width: 375px) and (max-width: 667px) and screen and (orientation: portrait) {
+
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 60px;
+}
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 25px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }      
+}
+
+/*-----------------------------Media queries for phones, iPhones 6,7,8 landscape-----------------------*/
+
+@media (min-width: 667px) and (max-width: 375px) and screen and (orientation: landscape) {
+    
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 20px;
+}
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ } 
+}
+
+/*-------------------------Media queries for phones, iPhone 6,7,8 portrait----------------------------------*/
+
+@media (min-width: 375px) and (max-width: 667px) and screen and (orientation: portrait) {
+    
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 70px;
+}
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 25px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }
+}
+
+/*-----------------------------Media queries for phones, iPhones 6,7,8 plus landscape-----------------------*/
+
+@media (min-width: 736px) and (max-width: 414px) and screen and (orientation: landscape) {
+    
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 20px;
+}
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }    
+}
+
+/*-------------------------Media queries for phones, iPhone 6,7,8 Plus portrait----------------------------------*/
+
+@media (min-width: 414px) and (max-width: 736px) and screen and (orientation: portrait) {
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 100px;
+}
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 35px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 25px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }
+}
+
+/*-----------------------------Media queries for phones, iPhone X landscape-----------------------*/
+
+@media (min-width: 812px) and (max-width: 375px) and screen and (orientation: landscape) {
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 15px;
+}
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }   
+}
+
+/*-------------------------Media queries for phones, iPhone X portrait----------------------------------*/
+@media (min-width: 375px) and (max-width: 812px) and screen and (orientation: portrait) {
+    
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 120px;
+}
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 40px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 15px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }
+}
+
+/*-------------------------------------Media Queries for Galaxy phones landscape-------------------------------------------*/
+
+@media (min-width: 640px) and (max-width: 360px) and (orientation: landscape) {
+
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 10px;
+ }
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }  
+}
+
+/*-------------------------------------Media Queries for Galaxy phones portrait-------------------------------------------*/
+
+@media (min-width: 360px) and (max-width: 640px) and (orientation: portrait) {
+    
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 70px;
+}
+    
+#services-section {
+    background-color: lightblue;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+ }
+    
+#services h2 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+#services h4 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+ }
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+    width: 100%;
+ }
+
+#contact h3 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 35px;
+ }
+    
+footer {
+    background-color: lightblue;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+ }
+}
