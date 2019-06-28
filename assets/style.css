@@ -106,7 +106,7 @@ hr {
 }
 
 #services {
-    padding-left: 4em;
+    padding-left: 10em;
 }
 
 #services h2 {
@@ -127,6 +127,7 @@ hr {
 }
 
 #contact {
+    padding-left: 5em;
     background-color: lightblue;
     margin: auto;
     width: 90%;
