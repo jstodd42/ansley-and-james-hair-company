@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -24,10 +24,31 @@ a {
     cursor: pointer;
 }
 
+h2 {
+    font-size: 2em;
+    font-weight: 100;
+    color: darkslategray;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 100;
+    color: darkslategray;
+}
+
+p {
+    font-size: 1em;
+    color: darkslategray;
+}
+
+hr {
+    width: 60%;
+}
+
 .nav {
-    background-color: lightblue;
+    background-color: slategray;
     width: 100%;
-    height: 50px;
+    height: 3em;
 }
 
 .nav ul {
@@ -36,7 +57,7 @@ a {
 }
 
 .nav li {
-    color: #fff;
+    color: darkslategray;
     display: inline;
     list-style: none;
     padding-right: 50px;
@@ -65,61 +86,54 @@ a {
     height: 50%;
     width: 100%;
     margin: auto;
-    backdrop-filter
-    position: relative;
     z-index: -1;
     text-align: center;
 }
 
 .logo {
-    position: relative;
-    display: inline-block;
+    position: absolute;
+    display: inline-flex;
     z-index: 1;
-    padding-top: 50px;
+    padding-top: 5em;
 }
 
 #services-section {
+    display: flex;
     background-color: lightblue;
-    padding-top: 75px;
-    padding-bottom: 25px;
-    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: left;
+}
+
+#services {
+    padding-left: 4em;
 }
 
 #services h2 {
-    color: darkslategray;
-    font-size: 40px;
-    font-weight: 100;
-    text-decoration: underline;
     text-transform: uppercase;
 }
 
 #services h4 {
-    color: darkslategray;
-    font-size: 30px;
-    font-weight: 100;
     text-transform: uppercase;
-    text-align: center;
+    text-decoration: underline;
 }
 
 #services p {
     color: darkslategray;
     display: block;
-    font-size: 25px;
     font-weight: 100;
-    line-height: 35px;
-    width: 100%;
+    line-height: 2em;
+    width: 90%;
 }
 
 #contact {
     background-color: lightblue;
-    margin: 0;
-    width: auto;
-    text-align: center;
+    margin: auto;
+    width: 90%;
 }
 
-#contact h3 {
+#contact h4 {
     color: darkslategray;
-    font-size: 40px;
     font-weight: 100;
     text-decoration: underline;
 }
@@ -127,26 +141,30 @@ a {
 .hours {
     color: darkslategray;
     display: block;
-    font-size: 25px;
+    font-size: 1em;
     font-weight: 100;
-    line-height: 35px;
+    line-height: 1em;
 }
 
 .location {
     color: darkslategray;
     display: block;
-    font-size: 25px;
+    font-size: 1em;
     font-weight: 100;
     line-height: 35px;
     
 }
 
 footer {
-    background-color: lightblue;
-    text-align: left;
-    padding-top: 50px;
+    background-color: slategray;
+    text-align: center;
+    padding-top: 0em;
     display: inline-block;
     width: 100%;
+}
+
+footer p {
+    font-size: .5em;
 }
 
 footer a:hover {
@@ -155,143 +173,12 @@ footer a:hover {
 }
 
 
-/*-------------------------------------Media Queries for tablets landscape-------------------------------------------*/
 
-@media (min-width: 1280px) and (max-width: 1025px) and (orientation: landscape) {
-.logo {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    padding-top: 76px;
-    height: 79.5%;
- }
-    
-#services h2 {
-    color: darkslategray;
-    font-size: 110px;
-    font-weight: 100;
-    text-decoration: underline;
-    text-transform: uppercase;
- }
 
-#services h4 {
-    color: darkslategray;
-    font-size: 70px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-align: center;
- }
-    
-#services p {
-    color: darkslategray;
-    display: block;
-    font-size: 35px;
-    font-weight: 100;
-    line-height: 65px;
-    width: 100%;
- }
 
-#contact h3 {
-    color: darkslategray;
-    font-size: 63px;
-    font-weight: 100;
-    text-decoration: underline;
- }
 
-.hours {
-    color: darkslategray;
-    display: block;
-    font-size: 40px;
-    font-weight: 100;
-    line-height: 15px;
- }
-    
-.location {
-    color: darkslategray;
-    display: block;
-    font-size: 40px;
-    font-weight: 100;
-    line-height: 55px;
- }
-    
-footer {
-    background-color: lightblue;
-    font-size: 20px;
-    text-align: left;
-    padding-top: 10px;
-    display: inline-block;
-    width: 100%;
- }   
-}
 
-/*-------------------------------------Media Queries for tablets portrait-------------------------------------------*/
 
-@media (min-width: 1025px) and (max-width: 1280px) and (orientation: portrait) {
-.logo {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    padding-top: 76px;
-    height: 79.5%;
- }
-    
-#services h2 {
-    color: darkslategray;
-    font-size: 110px;
-    font-weight: 100;
-    text-decoration: underline;
-    text-transform: uppercase;
- }
-
-#services h4 {
-    color: darkslategray;
-    font-size: 70px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-align: center;
- }
-    
-#services p {
-    color: darkslategray;
-    display: block;
-    font-size: 35px;
-    font-weight: 100;
-    line-height: 65px;
-    width: 100%;
- }
-
-#contact h3 {
-    color: darkslategray;
-    font-size: 63px;
-    font-weight: 100;
-    text-decoration: underline;
- }
-
-.hours {
-    color: darkslategray;
-    display: block;
-    font-size: 40px;
-    font-weight: 100;
-    line-height: 15px;
- }
-    
-.location {
-    color: darkslategray;
-    display: block;
-    font-size: 40px;
-    font-weight: 100;
-    line-height: 55px;
- }
-    
-footer {
-    background-color: lightblue;
-    font-size: 20px;
-    text-align: left;
-    padding-top: 10px;
-    display: inline-block;
-    width: 100%;
- }      
-}
 
 /*-------------------------------------Media Queries for iPad Pro landscape-------------------------------------------*/
 
@@ -449,82 +336,6 @@ footer {
  }   
 }
 
-/*-------------------------------------Media Queries for iPad landscape-------------------------------------------*/
-
-@media (min-width: 1024px) and (max-width: 768px) and (orientation: landscape) {
-.logo {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    padding-top: 77px;
-    width: 90%;
-    height: 76%;
- }
-    
-#services-section {
-    background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
- }
-    
-#services h2 {
-    color: darkslategray;
-    font-size: 80px;
-    font-weight: 100;
-    text-decoration: underline;
-    text-transform: uppercase;
- }
-
-#services h4 {
-    color: darkslategray;
-    font-size: 55px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-align: center;
- }
-    
-#services p {
-    color: darkslategray;
-    display: block;
-    font-size: 27px;
-    font-weight: 100;
-    line-height: 65px;
-    width: 100%;
-}
-
-#contact h3 {
-    color: darkslategray;
-    font-size: 60px;
-    font-weight: 100;
-    text-decoration: underline;
- }
-
-.hours {
-    color: darkslategray;
-    display: block;
-    font-size: 30px;
-    font-weight: 100;
-    line-height: 15px;
- }
-    
-.location {
-    color: darkslategray;
-    display: block;
-    font-size: 30px;
-    font-weight: 100;
-    line-height: 35px;
- }
-    
-footer {
-    background-color: lightblue;
-    font-size: 15px;
-    text-align: left;
-    padding-top: 10px;
-    display: inline-block;
-    width: 100%;
- }   
-}
 
 /*-------------------------------------Media Queries for iPad portrait-------------------------------------------*/
 
@@ -603,460 +414,6 @@ footer {
     width: 100%;
  }     
     
-}
-
-/*-----------------------------Media queries for phones, iPhone 5/SE landscape-----------------------*/
-
-@media (min-width: 667px) and (max-width: 375px) and screen and (orientation: landscape) {
-.logo {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    padding-top: 5px;
-}
-    
-#services-section {
-    background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
- }
-    
-#services h2 {
-    color: darkslategray;
-    font-size: 30px;
-    font-weight: 100;
-    text-decoration: underline;
-    text-transform: uppercase;
- }
-
-#services h4 {
-    color: darkslategray;
-    font-size: 20px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-align: center;
- }
-    
-#services p {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 25px;
-    width: 100%;
- }
-
-#contact h3 {
-    color: darkslategray;
-    font-size: 20px;
-    font-weight: 100;
-    text-decoration: underline;
- }
-
-.hours {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 15px;
- }
-    
-.location {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 35px;
- }
-    
-footer {
-    background-color: lightblue;
-    font-size: 10px;
-    text-align: left;
-    padding-top: 10px;
-    display: inline-block;
-    width: 100%;
- }  
-}
-
-/*-----------------------------Media queries for phones, iPhone 5/SE portrait-----------------------*/
-
-@media (min-width: 375px) and (max-width: 667px) and screen and (orientation: portrait) {
-
-.logo {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    padding-top: 60px;
-}
-    
-#services-section {
-    background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
- }
-    
-#services h2 {
-    color: darkslategray;
-    font-size: 30px;
-    font-weight: 100;
-    text-decoration: underline;
-    text-transform: uppercase;
- }
-
-#services h4 {
-    color: darkslategray;
-    font-size: 20px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-align: center;
- }
-    
-#services p {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 25px;
-    width: 100%;
- }
-
-#contact h3 {
-    color: darkslategray;
-    font-size: 20px;
-    font-weight: 100;
-    text-decoration: underline;
- }
-
-.hours {
-    color: darkslategray;
-    display: block;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 15px;
- }
-    
-.location {
-    color: darkslategray;
-    display: block;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 35px;
- }
-    
-footer {
-    background-color: lightblue;
-    font-size: 10px;
-    text-align: left;
-    padding-top: 10px;
-    display: inline-block;
-    width: 100%;
- }      
-}
-
-/*-----------------------------Media queries for phones, iPhones 6,7,8 landscape-----------------------*/
-
-@media (min-width: 667px) and (max-width: 375px) and screen and (orientation: landscape) {
-    
-.logo {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    padding-top: 20px;
-}
-    
-#services-section {
-    background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
- }
-    
-#services h2 {
-    color: darkslategray;
-    font-size: 40px;
-    font-weight: 100;
-    text-decoration: underline;
-    text-transform: uppercase;
- }
-
-#services h4 {
-    color: darkslategray;
-    font-size: 30px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-align: center;
- }
-    
-#services p {
-    color: darkslategray;
-    display: block;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 25px;
-    width: 100%;
- }
-
-#contact h3 {
-    color: darkslategray;
-    font-size: 20px;
-    font-weight: 100;
-    text-decoration: underline;
- }
-
-.hours {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 15px;
- }
-    
-.location {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 35px;
- }
-    
-footer {
-    background-color: lightblue;
-    font-size: 10px;
-    text-align: left;
-    padding-top: 10px;
-    display: inline-block;
-    width: 100%;
- } 
-}
-
-/*-------------------------Media queries for phones, iPhone 6,7,8 portrait----------------------------------*/
-
-@media (min-width: 375px) and (max-width: 667px) and screen and (orientation: portrait) {
-    
-.logo {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    padding-top: 70px;
-}
-    
-#services-section {
-    background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
- }
-    
-#services h2 {
-    color: darkslategray;
-    font-size: 30px;
-    font-weight: 100;
-    text-decoration: underline;
-    text-transform: uppercase;
- }
-
-#services h4 {
-    color: darkslategray;
-    font-size: 20px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-align: center;
- }
-    
-#services p {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 25px;
-    width: 100%;
- }
-
-#contact h3 {
-    color: darkslategray;
-    font-size: 20px;
-    font-weight: 100;
-    text-decoration: underline;
- }
-
-.hours {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 15px;
- }
-    
-.location {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 35px;
- }
-    
-footer {
-    background-color: lightblue;
-    font-size: 10px;
-    text-align: left;
-    padding-top: 10px;
-    display: inline-block;
-    width: 100%;
- }
-}
-
-/*-----------------------------Media queries for phones, iPhones 6,7,8 plus landscape-----------------------*/
-
-@media (min-width: 736px) and (max-width: 414px) and screen and (orientation: landscape) {
-    
-.logo {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    padding-top: 20px;
-}
-    
-#services-section {
-    background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
- }
-    
-#services h2 {
-    color: darkslategray;
-    font-size: 40px;
-    font-weight: 100;
-    text-decoration: underline;
-    text-transform: uppercase;
- }
-
-#services h4 {
-    color: darkslategray;
-    font-size: 30px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-align: center;
- }
-    
-#services p {
-    color: darkslategray;
-    display: block;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 25px;
-    width: 100%;
- }
-
-#contact h3 {
-    color: darkslategray;
-    font-size: 20px;
-    font-weight: 100;
-    text-decoration: underline;
- }
-
-.hours {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 15px;
- }
-    
-.location {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 35px;
- }
-    
-footer {
-    background-color: lightblue;
-    font-size: 10px;
-    text-align: left;
-    padding-top: 10px;
-    display: inline-block;
-    width: 100%;
- }    
-}
-
-/*-------------------------Media queries for phones, iPhone 6,7,8 Plus portrait----------------------------------*/
-
-@media (min-width: 414px) and (max-width: 736px) and screen and (orientation: portrait) {
-.logo {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    padding-top: 100px;
-}
-    
-#services-section {
-    background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
- }
-    
-#services h2 {
-    color: darkslategray;
-    font-size: 40px;
-    font-weight: 100;
-    text-decoration: underline;
-    text-transform: uppercase;
- }
-
-#services h4 {
-    color: darkslategray;
-    font-size: 30px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-align: center;
- }
-    
-#services p {
-    color: darkslategray;
-    display: block;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 35px;
-    width: 100%;
- }
-
-#contact h3 {
-    color: darkslategray;
-    font-size: 20px;
-    font-weight: 100;
-    text-decoration: underline;
- }
-
-.hours {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 25px;
- }
-    
-.location {
-    color: darkslategray;
-    display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 35px;
- }
-    
-footer {
-    background-color: lightblue;
-    font-size: 10px;
-    text-align: left;
-    padding-top: 10px;
-    display: inline-block;
-    width: 100%;
- }
 }
 
 /*-----------------------------Media queries for phones, iPhone X landscape-----------------------*/
@@ -1201,20 +558,36 @@ footer {
     
 footer {
     background-color: lightblue;
-    font-size: 10px;
+    font-size: .1em;
     text-align: left;
-    padding-top: 10px;
     display: inline-block;
     width: 100%;
  }
 }
 
-/*-------------------------------------Media Queries for Galaxy phones landscape-------------------------------------------*/
 
-@media (min-width: 640px) and (max-width: 360px) and (orientation: landscape) {
 
+
+
+
+
+
+
+/*Media Queries for Galaxy phones landscape*/
+    
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+.nav {
+    background-color: slategray;
+    font-size: .8em;
+}
+
+.nav li {
+    color: #fff;
+    text-transform: uppercase;
+}
 .logo {
-    position: relative;
+    position: absolute;
     display: inline-block;
     z-index: 1;
     padding-top: 10px;
@@ -1222,141 +595,826 @@ footer {
     
 #services-section {
     background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    text-align: center;
+    display: inline-block;
+    text-align: left;
  }
+
+#services {
+    padding-left: 2em;
+}
     
 #services h2 {
     color: darkslategray;
-    font-size: 30px;
+    font-size: 1.5em;
     font-weight: 100;
     text-decoration: underline;
     text-transform: uppercase;
  }
 
-#services h4 {
+ #services h4 {
     color: darkslategray;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 100;
     text-transform: uppercase;
-    text-align: center;
- }
+    text-align: left;
+}
     
 #services p {
     color: darkslategray;
     display: block;
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 35px;
+    font-size: 1em;
+    font-weight: 100; 
     width: 100%;
  }
 
-#contact h3 {
+#contact h4 {
     color: darkslategray;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 100;
     text-decoration: underline;
+    text-transform: uppercase;
  }
 
 .hours {
     color: darkslategray;
     display: block;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 100;
-    line-height: 35px;
  }
     
 .location {
     color: darkslategray;
     display: block;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 100;
-    line-height: 35px;
  }
     
 footer {
-    background-color: lightblue;
-    font-size: 10px;
+    background-color: slategray;
+    font-size: .1em;
     text-align: left;
-    padding-top: 10px;
     display: inline-block;
     width: 100%;
- }  
+ } 
+ 
+ footer p {
+     color: #fff;
+     text-align: center;
+     font-size: .7em;
+ }
 }
 
-/*-------------------------------------Media Queries for Galaxy phones portrait-------------------------------------------*/
-
-@media (min-width: 360px) and (max-width: 640px) and (orientation: portrait) {
+/*Media Queries for Galaxy phones potrait*/
     
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+.nav {
+    background-color: slategray;
+    font-size: .8em;
+}
+    
+.nav li {
+    color: #fff;
+    text-transform: uppercase;
+}
 .logo {
-    position: relative;
+    position: inherit;
     display: inline-block;
     z-index: 1;
-    padding-top: 70px;
 }
     
 #services-section {
     background-color: lightblue;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    display: inline-block;
     text-align: center;
- }
-    
+}
+
+#services {
+    padding-left: 0em;
+}
+
 #services h2 {
     color: darkslategray;
     font-size: 30px;
     font-weight: 100;
     text-decoration: underline;
     text-transform: uppercase;
+}
+
+#services h4 {
+    color: darkslategray;
+    font-size: 1.5em;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+    
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 1em;
+    font-weight: 100;
+    width: 100%;
  }
 
+#contact {
+    margin: auto;
+    width: 77%;
+}
+
+#contact h4 {
+    color: darkslategray;
+    font-size: 1.5em;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5em;
+ }
+    
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5em;
+ }
+    
+ footer {
+    background-color: slategray;
+    font-size: .1em;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+ } 
+ 
+ footer p {
+     color: #fff;
+     text-align: center;
+     font-size: .7em;
+ }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+.nav {
+    background-color: slategray;
+    font-size: .8em;
+}
+.nav li {
+    color: #fff;
+    text-transform: uppercase;
+}    
+.logo {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 60px;
+}
+#services-section {
+    display: block;
+    background-color: lightblue;
+    text-align: center;
+}
+#services {
+    padding-left: 0em;
+}   
+#services h2 {
+    color: darkslategray;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
 #services h4 {
     color: darkslategray;
     font-size: 20px;
     font-weight: 100;
     text-transform: uppercase;
     text-align: center;
- }
-    
+}   
 #services p {
     color: darkslategray;
     display: block;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 100;
-    line-height: 35px;
-    width: 100%;
- }
-
-#contact h3 {
+    line-height: 1.5em;
+    width: 76%;
+    margin: auto;
+}
+#contact h4 {
     color: darkslategray;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: 100;
     text-decoration: underline;
+    text-transform: uppercase;
  }
 
 .hours {
     color: darkslategray;
     display: block;
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 100;
-    line-height: 35px;
+    line-height: 1.5em;
  }
     
+.location {
+    color: darkslategray;
+    display: block;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5em;
+ }
+    
+ footer {
+    background-color: slategray;
+    font-size: .1em;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: .7em;
+}
+}
+
+/*iPhone 678 Landscape*/
+    
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    
+.nav {
+    background-color: slategray;
+    font-size: .7em;
+}
+.nav li {
+    color: #fff;
+    text-transform: uppercase;
+}
+.logo {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    padding-top: 3em;
+}
+
+.title-wrapper {
+    background-image: url(images/white-board.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 67%;
+    width: 100%;
+    margin: auto;
+    z-index: -1;
+    text-align: center;
+}
+#services-section {
+    background-color: lightblue;
+    text-align: center;
+}
+#services {
+    padding-left: 0em;
+}    
+#services h2 {
+    color: darkslategray;
+    font-size: 1.5em;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+}  
+#services h4 {
+    color: darkslategray;
+    font-size: 1em;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}       
+#services p {
+    color: darkslategray;
+    display: block;
+    font-size: 1em;
+    font-weight: 100;
+    width: 93%;
+    margin: auto;
+} 
+#contact h4 {
+    color: darkslategray;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+    text-transform: uppercase;
+}    
+.hours {
+    color: darkslategray;
+    display: block;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5em;
+    width: 97%;
+    margin: auto;
+}      
 .location {
     color: darkslategray;
     display: block;
     font-size: 15px;
     font-weight: 100;
     line-height: 35px;
- }
-    
+}        
 footer {
-    background-color: lightblue;
-    font-size: 10px;
+    background-color: slategray;
+    font-size: .1em;
     text-align: left;
-    padding-top: 10px;
     display: inline-block;
     width: 100%;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: .7em;
+} 
+}
+
+/*iPhone 678 Portrait*/
+    
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #services p {
+        color: darkslategray;
+        display: block;
+        font-size: 1em;
+        font-weight: 100;
+        width: 85%;
+        margin: auto;
+    }
+    .hours {
+        color: darkslategray;
+        display: block;
+        font-size: 1em;
+        font-weight: 100;
+        line-height: 1.7em;
+    }
+    }
+    
+
+/*iPhone 678 PLUS Landscape*/
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .nav {
+        background-color: slategray;
+        font-size: .7em;
+    }
+    
+    .nav li {
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .logo {
+        position: absolute;
+        display: inline-block;
+        z-index: 1;
+        padding-top: 2em;
+    }
+    .title-wrapper {
+        background-image: url(images/white-board.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 60%;
+        width: 100%;
+        margin: auto;
+        z-index: -1;
+        text-align: center;
+    }   
+    #services-section {
+        background-color: lightblue;
+        text-align: center;
+    }
+    #services {
+        padding-left: 1em;
+    }
+    #services h2 {
+        color: darkslategray;
+        font-size: 2em;
+        font-weight: 100;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    
+    #services h4 {
+        color: darkslategray;
+        font-size: 1.5em;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: center;
+    }
+        
+    #services p {
+        color: darkslategray;
+        display: block;
+        font-size: 1em;
+        font-weight: 100;
+        line-height: 1.5em;
+        width: 89%;
+        margin: auto;
+    }
+    
+    #contact h4 {
+        color: darkslategray;
+        font-size: 1.5em;
+        font-weight: 100;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    
+    .hours {
+        color: darkslategray;
+        display: block;
+        font-size: 1em;
+        font-weight: 100;
+        line-height: 1.5em;
+        margin: auto;
+        width: 88%;
+    }
+    
+    .location {
+        color: darkslategray;
+        display: block;
+        font-size: 1em;
+        font-weight: 100;
+        line-height: 1.5em;
+    }
+        
+    footer {
+        background-color: slategray;
+        font-size: .1em;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+     } 
+     
+     footer p {
+         color: #fff;
+         text-align: center;
+         font-size: .7em;
+     }     
+}
+
+/*iPhone X Landscape*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .nav {
+        background-color: slategray;
+        font-size: .7em;
+    }
+    
+    .nav li {
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .logo {
+        position: absolute;
+        display: inline-block;
+        z-index: 1;
+        padding-top: 2em;
+    }
+    .title-wrapper {
+        background-image: url(images/white-board.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 60%;
+        width: 100%;
+        margin: auto;
+        z-index: -1;
+        text-align: center;
+    }   
+    #services-section {
+        background-color: lightblue;
+        text-align: center;
+    }
+    #services {
+        padding-left: 1em;
+    }
+    #services h2 {
+        color: darkslategray;
+        font-size: 2em;
+        font-weight: 100;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    
+    #services h4 {
+        color: darkslategray;
+        font-size: 1.5em;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: center;
+    }
+        
+    #services p {
+        color: darkslategray;
+        display: block;
+        font-size: 1em;
+        font-weight: 100;
+        line-height: 1.5em;
+        width: 89%;
+        margin: auto;
+    }
+    
+    #contact h4 {
+        color: darkslategray;
+        font-size: 1.5em;
+        font-weight: 100;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    
+    .hours {
+        color: darkslategray;
+        display: block;
+        font-size: 1em;
+        font-weight: 100;
+        line-height: 1.5em;
+        margin: auto;
+        width: 88%;
+    }
+    
+    .location {
+        color: darkslategray;
+        display: block;
+        font-size: 1em;
+        font-weight: 100;
+        line-height: 1.5em;
+    }
+        
+    footer {
+        background-color: slategray;
+        font-size: .1em;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+     } 
+     
+    footer p {
+         color: #fff;
+         text-align: center;
+         font-size: .7em;
+     }
+}
+
+/* iPad landscape*/
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .nav {
+        background-color: slategray;
+    font-size: .7em;
+    }
+    
+    .nav li {
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .logo {
+        margin-left: 20em;
+        margin-top: 2em;
+        position: inherit;
+        z-index: 1;
+        width: 45%;
+        height: 66%;
+    }  
+    #services-section {
+        display: block;
+        background-color: lightblue;
+        text-align: center;
+    } 
+    #services {
+        padding-left: 0em;
+    }      
+    #services h2 {
+        color: darkslategray;
+        font-size: 4em;
+        font-weight: 100;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    #services h4 {
+        color: darkslategray;
+        font-size: 2em;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: center;
+    }       
+    #services p {
+        color: darkslategray;
+        display: block;
+        font-size: 1.5em;
+        font-weight: 100;
+        width: 62%;
+        margin: auto;
+    }   
+    #contact h4 {
+        color: darkslategray;
+        font-size: 2em;
+        font-weight: 100;
+        text-decoration: underline;
+    }
+    .hours {
+        color: darkslategray;
+        display: block;
+        font-size: 1.5em;
+        font-weight: 100;
+        line-height: 1em;
+    }      
+    .location {
+        color: darkslategray;
+        display: block;
+        font-size: 1.5em;
+        font-weight: 100;
+        line-height: 1.5em;
+    }      
+    footer {
+        background-color: slategray;
+        font-size: .1em;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+    }  
+    footer p {
+        color: #fff;
+        text-align: center;
+        font-size: .7em;
+
+    }
  }
+/*iPad Portrait*/
+    
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .nav {
+        background-color: slategray;
+        font-size: .7em;
+    } 
+    .nav li {
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .logo {
+        margin-top: 4em;
+        margin-left: 9em;
+        position: absolute;
+        display: block;
+        z-index: 1;
+        width: 66%;
+        height: 29%;
+    } 
+    #services-section {
+        display: block;
+        background-color: lightblue;
+        text-align: center;
+    } 
+    #services {
+        padding-left: 0em;
+    }      
+    #services h2 {
+        color: darkslategray;
+        font-size: 4em;
+        font-weight: 100;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    #services h4 {
+        color: darkslategray;
+        font-size: 2em;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: center;
+    }       
+    #services p {
+        color: darkslategray;
+        display: block;
+        font-size: 1.5em;
+        font-weight: 100;
+        width: 62%;
+        margin: auto;
+    }   
+    #contact h4 {
+        color: darkslategray;
+        font-size: 2em;
+        font-weight: 100;
+        text-decoration: underline;
+    }
+    .hours {
+        color: darkslategray;
+        display: block;
+        font-size: 1.5em;
+        font-weight: 100;
+        line-height: 1em;
+    }      
+    .location {
+        color: darkslategray;
+        display: block;
+        font-size: 1.5em;
+        font-weight: 100;
+        line-height: 1.5em;
+    }      
+    footer {
+        background-color: slategray;
+        font-size: .1em;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+    }  
+    footer p {
+        color: #fff;
+        text-align: center;
+        font-size: .7em;
+    }
+}
+
+/*iPad Pro Landscape*/
+    
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .nav {
+        background-color: slategray;
+        font-size: .7em;
+    } 
+    .nav li {
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .logo {
+        margin-top: 1em;
+        margin-left: 12em;
+        position: absolute;
+        display: block;
+        z-index: 1;
+        width: 72%;
+        height: 38%;
+    } 
+    #services-section {
+        display: block;
+        background-color: lightblue;
+        text-align: center;
+    } 
+    #services {
+        padding-left: 0em;
+    }      
+    #services h2 {
+        color: darkslategray;
+        font-size: 4em;
+        font-weight: 100;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    #services h4 {
+        color: darkslategray;
+        font-size: 2em;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: center;
+    }       
+    #services p {
+        color: darkslategray;
+        display: block;
+        font-size: 1.5em;
+        font-weight: 100;
+        width: 62%;
+        margin: auto;
+    }   
+    #contact h4 {
+        color: darkslategray;
+        font-size: 2em;
+        font-weight: 100;
+        text-decoration: underline;
+    }
+    .hours {
+        color: darkslategray;
+        display: block;
+        font-size: 1.5em;
+        font-weight: 100;
+        line-height: 1em;
+    }      
+    .location {
+        color: darkslategray;
+        display: block;
+        font-size: 1.5em;
+        font-weight: 100;
+        line-height: 1.5em;
+    }      
+    footer {
+        background-color: slategray;
+        font-size: .1em;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+    }  
+    footer p {
+        color: #fff;
+        text-align: center;
+        font-size: .7em;
+    }
 }
